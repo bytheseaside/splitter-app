@@ -1,4 +1,4 @@
-import { Flex, Text, StackDivider, Stack, Button } from '@chakra-ui/react'
+import { Flex, StackDivider, Stack, Button } from '@chakra-ui/react'
 import { DollarOutlined, UserOutlined, RedoOutlined } from '@ant-design/icons'
 import NumericInput from '../NumberInput/NumberInput'
 import { useState } from 'react'
