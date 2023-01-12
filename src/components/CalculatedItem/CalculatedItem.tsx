@@ -1,4 +1,4 @@
-import { Flex, Stack, Text, useColorModeValue } from '@chakra-ui/react'
+import { Flex, Text, useColorModeValue } from '@chakra-ui/react'
 
 const CalculatedItem = ({
   description,
@@ -13,10 +13,11 @@ const CalculatedItem = ({
       justify='space-between'
       align='center'
       px={4}
+      my={3}
       borderRadius={['xs', 'sm', 'md', 'lg']}
       color={useColorModeValue('teal.700', '')}
     >
-      <Stack direction='column' justify='center'>
+      <Flex direction='column' justify='center'>
         <Text
           sx={{
             textTransform: 'uppercase',
@@ -29,12 +30,13 @@ const CalculatedItem = ({
         <Text
           sx={{
             fontSize: '0.8rem',
-            textAlign: 'left'
+            textAlign: 'left',
+            color: 'white'
           }}
         >
           /per person
         </Text>
-      </Stack>
+      </Flex>
       <Text fontSize={['lg', 'xl', '2xl', '3xl']}>${value}</Text>
     </Flex>
   )
