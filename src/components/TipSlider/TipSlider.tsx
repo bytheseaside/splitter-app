@@ -29,6 +29,7 @@ const TipSlider = ({
         value={sliderValue}
         onChange={(val) => setSliderValue(val)}
         my={7}
+        colorScheme='teal'
       >
         <SliderMark value={25} {...labelStyles}>
           25%
@@ -42,7 +43,7 @@ const TipSlider = ({
         <SliderMark
           value={sliderValue}
           textAlign='center'
-          bg='blue.500'
+          bg='teal.400'
           color='white'
           fontSize='sm'
           mt='-10'
@@ -58,9 +59,6 @@ const TipSlider = ({
         </SliderTrack>
         <SliderThumb />
       </Slider>
-      {/* <Flex ml={1} bg='blue.500' px={1} >
-       {sliderValue} %
-      </Flex> */}
     </Center>
   )
 }

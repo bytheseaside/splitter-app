@@ -12,7 +12,6 @@ import {
 const NumericInput = ({
   icon,
   min,
-  max,
   precision,
   step,
   value,
@@ -20,7 +19,6 @@ const NumericInput = ({
 }: {
   icon: any
   min: number
-  max: number
   precision: number
   step: number
   value?: number | undefined
@@ -36,7 +34,6 @@ const NumericInput = ({
         onChange={setValue}
         w='100%'
         min={min}
-        max={max}
         precision={precision ?? 0}
         step={step}
       >
