@@ -4,10 +4,8 @@ import {
   SliderTrack,
   SliderFilledTrack,
   SliderThumb,
-  SliderMark,
-  Flex
+  SliderMark
 } from '@chakra-ui/react'
-import PercentageOutlined from '@ant-design/icons'
 
 const TipSlider = ({
   sliderValue,
@@ -22,7 +20,7 @@ const TipSlider = ({
     fontSize: 'sm'
   }
   return (
-    <Center py={3}  px={2}>
+    <Center py={3} px={2}>
       <Slider
         aria-label='tip-percentage-selector'
         step={1}
