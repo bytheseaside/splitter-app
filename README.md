@@ -31,10 +31,6 @@ The application includes a theme switcher for personalization. Users can switch 
 
 To install the application, clone the repository and install the dependencies using `npm install`. Then, start the application using `npm start`.
 
-## Contribution
-
-Contributions are welcome! Please read the contributing guidelines before getting started.
-
 ## License
 
 This project is licensed under the terms of the MIT license.
