@@ -1,59 +1,40 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+# Splitter App
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Splitter is an application designed to make splitting bills and tips among a certain number of people a breeze. Simply input the bill amount, the tip percentage, and the number of people, and the app will calculate how much each person should pay.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Input for bill amount
+- Input for tip percentage
+- Input for number of people
+- Calculation of amount each person should pay
+- Theme switcher for personalization
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+## Technical Aspects
 
-### `npm test`
+This application was built using React, a popular JavaScript library for building user interfaces. For the frontend, we used Chakra UI, a simple, modular and accessible component library that gives you all the building blocks you need to build your React applications.
 
-Launches the test runner in the interactive watch mode.<br /> See the section
-about
-[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+## Theme Switcher
 
-### `npm run build`
+The application includes a theme switcher for personalization. Users can switch between different themes to suit their preferences.
 
-Builds the app for production to the `build` folder.<br /> It correctly bundles
-React in production mode and optimizes the build for the best performance.
+## How to Use
 
-The build is minified and the filenames include the hashes.<br /> Your app is
-ready to be deployed!
+1. Enter the total bill amount.
+2. Enter the tip percentage you wish to give.
+3. Enter the number of people splitting the bill.
+4. The app will automatically calculate and display the amount each person should pay.
 
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
+## Installation
 
-### `npm run eject`
+To install the application, clone the repository and install the dependencies using `npm install`. Then, start the application using `npm start`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contribution
 
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
+Contributions are welcome! Please read the contributing guidelines before getting started.
 
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the terms of the MIT license.
