@@ -14,7 +14,7 @@ Splitter is an application designed to make splitting bills and tips among a cer
 
 ## Technical Aspects
 
-This application was built using React, a popular JavaScript library for building user interfaces. For the frontend, we used Chakra UI, a simple, modular and accessible component library that gives you all the building blocks you need to build your React applications.
+This application was built using React, a popular JavaScript library for building user interfaces. For the frontend, I used Chakra UI, a simple, modular and accessible component library that gives you all the building blocks you need to build your React applications.
 
 ## Theme Switcher
 
